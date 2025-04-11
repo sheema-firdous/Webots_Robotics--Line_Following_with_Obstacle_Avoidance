@@ -1,0 +1,56 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puckGroundSensors.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/drinks/protos/BeerBottle.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5830073687455524 -0.5958768395226174 -0.5522981080077357 4.109266270683002
+  position -0.049672170613855204 0.2156391988060785 2.575083901308609
+  follow "e-puck"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.00685263 -0.0126075 0
+  rotation 0 0 1 -1.5707953071795862
+  floorSize 1.2 1.8
+  floorTileSize 1.2 1.8
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/worlds/textures/oval_line.png"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+}
+DEF E_PUCK E-puck {
+  translation -0.2602408179621949 0.4314061071071453 -6.398427991989239e-05
+  rotation 0.00020908355827188861 0.0045630810722933875 -0.9999895672331752 0.09139629262287513
+  controller "followLine_with_obstacleAvoidance"
+  window "botstudio"
+  camera_width 40
+  camera_height 1
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
+BeerBottle {
+  translation 0.642688017653692 -0.2758021207110231 0.000343110942651062
+  rotation 0.00012003226601519841 -0.00014430434409262057 -0.9999999823842554 1.3090715686351664
+}
+BeerBottle {
+  translation 0.682088449604852 0.2560435567144681 0.0003430371981338609
+  rotation 0.00010122488667414791 -0.00013373860261203576 0.9999999859337542 1.5707268398831036
+  name "beer bottle(1)"
+}
