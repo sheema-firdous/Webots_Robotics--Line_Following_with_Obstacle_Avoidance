@@ -62,26 +62,6 @@ This project simulates an intelligent mobile robot in Webots that follows a blac
 
 ---
 
-## 📸 Screenshots (Optional)
-
-_Add simulation screenshots or GIFs here if you'd like._
-
----
-
-## 🧑‍💻 Author
-
-- Developed by: [Your Name]
-- [Your GitHub Profile](https://github.com/your-username)
-
----
-
-## 📃 License
-
-This project is licensed under the MIT License.
-
-
----
-
 ## 👩‍💻 Developers Information
 
 Developed by **[Sheema Firdous](https://www.linkedin.com/in/sheema-firdous-67b9b8181/)**  
