@@ -13,7 +13,7 @@ This project simulates an intelligent mobile robot in Webots that follows a blac
 
 ---
 
-## 🚀 Technologies Used
+## 🚀 Implementation Specifications
 
 - [Webots](https://cyberbotics.com/) Simulator
 - Python Controller (Webots API)
@@ -65,8 +65,8 @@ This project simulates an intelligent mobile robot in Webots that follows a blac
 ## 👩‍💻 Developers Information
 
 Developed by **[Sheema Firdous](https://www.linkedin.com/in/sheema-firdous-67b9b8181/)**  
-as part of the **Cognitive Systems and Robotics** module assessment  at **[Sheffield Hallam University](https://www.shu.ac.uk/)**
+as a part of **Cognitive Systems and Robotics** module assessment  at **[Sheffield Hallam University](https://www.shu.ac.uk/)**
 
 Supervised by [Dr. Samuele Vinanzi](https://www.linkedin.com/in/samuelevinanzi/)
 
-This project demonstrates the practical application of reinforcement learning (Q-learning) in autonomous robotics using Webots and Python.
+The implemented project demonstrates the practical application of Reinforcement Learning (Q-learning) in autonomous robotics using Webots and Python.
